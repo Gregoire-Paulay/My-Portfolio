@@ -1,6 +1,7 @@
 /* -------------- GENERAL ------------- */
 :root {
-  --main-color: #f5f5f5;
+  --main-color1: #f5f5f5;
+  --main-color2: #d3d3d3;
   --dark: #111111;
 }
 body {
@@ -70,13 +71,13 @@ header > div {
   justify-content: center;
 }
 h1:hover {
-  color: lightgray;
+  color: var(--main-color2);
 }
 /* ----------------------------------- */
 /* --------------- MAIN -------------- */
 /* ----------------------------------- */
 main > div {
-  background-color: lightgray;
+  background-color: var(--main-color2);
   color: var(--dark);
   border-radius: 20px;
 }
@@ -84,22 +85,28 @@ main > div {
 nav {
   display: flex;
   justify-content: space-between;
-  cursor: pointer;
-  padding: 30px;
+  padding: 10px;
   position: sticky;
   top: 0px;
-  background-color: lightgray;
+  background-color: var(--main-color2);
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom: 1px solid var(--dark);
+  gap: 10px;
 }
 nav a {
   font-size: 24px;
   text-decoration: none;
   color: black;
+  border: 1px solid gray;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
 }
 nav a:hover {
   font-weight: bold;
+  background-color: gray;
+  color: white;
 }
 
 main > div > img {
@@ -108,10 +115,12 @@ main > div > img {
   object-fit: cover;
 }
 
-/* -------- Section description --------- */
-#description {
-  margin-top: 30px;
+section {
+  padding: 40px 0;
 }
+
+/* -------- Section description --------- */
+
 #description > div:first-of-type {
   display: flex;
   align-items: center;
@@ -126,7 +135,7 @@ main > div > img {
   border: 2px solid rgb(213, 140, 3);
 }
 #description > div:last-of-type {
-  padding: 50px;
+  padding: 50px 50px 0 50px;
 }
 #description > div:last-of-type > p {
   font-size: 18px;
@@ -148,7 +157,6 @@ main > div > img {
   align-items: center;
   gap: 40px;
   background-color: white;
-  padding: 30px 0;
 }
 #formation > div {
   display: flex;
@@ -171,17 +179,62 @@ main > div > img {
   gap: 50px;
   align-items: center;
 }
+
+/* -------- Section Projets --------- */
+#project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#project > div {
+  display: flex;
+  width: 100%;
+  flex-shrink: 0;
+  overflow: scroll hidden;
+  gap: 25px;
+}
+#project p {
+  padding-top: 25px;
+  padding-bottom: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#project img {
+  height: 300px;
+  cursor: pointer;
+}
+#project img:hover {
+  opacity: 0.8;
+}
+
+/* -------- Section Influence -------- */
+#influence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+/* -------- Section Contacts -------- */
+#contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contacts > div:first-of-type {
+  padding-top: 30px;
+}
 /* ----------------------------------- */
 /* -------------- FOOTER ------------- */
 /* ----------------------------------- */
 footer {
   padding: 30px;
   text-align: center;
-  background-color: yellow;
 }
 
 footer a {
   text-decoration: none;
-  color: black;
+  color: gray;
   font-weight: bold;
 }

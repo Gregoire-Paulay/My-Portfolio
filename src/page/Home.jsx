@@ -1,3 +1,5 @@
+import { useNavigate } from "react-router-dom";
+
 //import de mes images
 import hero from "../assets/computer.jpeg";
 import photo from "../assets/Photo.jpg";
@@ -8,8 +10,16 @@ import node from "../assets/node-js.png";
 import mongo from "../assets/mongodb.png";
 import react from "../assets/react.png";
 import typescript from "../assets/typescript.png";
+import tripadvisor from "../assets/tripadvisor.png";
+import vinted from "../assets/vinted.png";
+import deliveroo from "../assets/deliveroo.png";
 
 const Home = ({ darkMode }) => {
+  const navigate = useNavigate();
+  const handleNavigate = () => {
+    navigate("/projects");
+  };
+
   return (
     <main className={darkMode ? "dark" : "light"}>
       <div className="container">
@@ -18,7 +28,7 @@ const Home = ({ darkMode }) => {
           <a href="#formation">Formation</a>
           <a href="#project">Projets</a>
           <a href="#influence">Mes influences</a>
-          <a href="contacts">Contacts</a>
+          <a href="#contacts">Contacts</a>
         </nav>
 
         <img src={hero} alt="Bannière classique" />
@@ -90,9 +100,30 @@ const Home = ({ darkMode }) => {
             </div>
           </div>
         </section>
-        <section id="project">Projets</section>
-        <section id="influence">influenceurs</section>
-        <section id="contacts">Contacts</section>
+        <section id="project">
+          <h2>Projets</h2>
+          <p onClick={handleNavigate}>Cliquer pour plus d'infos</p>
+          <div>
+            <img src={tripadvisor} alt="projet" onClick={handleNavigate} />
+            <img src={deliveroo} alt=" projet" onClick={handleNavigate} />
+            <img src={vinted} alt=" projet" onClick={handleNavigate} />
+          </div>
+        </section>
+        <section id="influence">
+          <h2>Les influences qui me divertisse et m'inspire</h2>
+        </section>
+        <section id="contacts">
+          <h2>Contactez-moi</h2>
+          <div>
+            <i className="fa-solid fa-envelope"></i>
+          </div>
+          <div>
+            <i className="fa-brands fa-linkedin"></i>
+          </div>
+          <div>
+            <i className="fa-brands fa-github"></i>
+          </div>
+        </section>
       </div>
     </main>
   );

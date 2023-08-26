@@ -15,15 +15,11 @@ const App = () => {
 
   return (
     <Router>
-      <button
-        className="mode"
-        onClick={() => {
-          setDarkMode(!darkMode);
-        }}
-      >
-        Mode
-      </button>
-      <Header title="Mon Portfolio" darkMode={darkMode} />
+      <Header
+        title="Mon Portfolio"
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+      />
 
       <Routes>
         <Route path="/" element={<Home darkMode={darkMode} />} />

@@ -1,8 +1,13 @@
-import { useState } from "react";
-
 //import de mes images
 import hero from "../assets/computer.jpeg";
 import photo from "../assets/Photo.jpg";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/javascript.png";
+import node from "../assets/node-js.png";
+import mongo from "../assets/mongodb.png";
+import react from "../assets/react.png";
+import typescript from "../assets/typescript.png";
 
 const Home = ({ darkMode }) => {
   return (
@@ -20,7 +25,7 @@ const Home = ({ darkMode }) => {
 
         <section id="description">
           <div>
-            <img src={photo} alt="Ma photo" />
+            <img src={photo} alt="Ma PP" />
             <h2>Grégoire Paulay</h2>
           </div>
           <div>
@@ -48,7 +53,29 @@ const Home = ({ darkMode }) => {
             </p>
           </div>
         </section>
-        <section id="formation">Formation</section>
+        <section id="formation">
+          <h2>Formation</h2>
+          <div>
+            <p>Les technologies sur lesquelles je suis formées</p>
+            <div>
+              <img src={html} alt="Logo HTML" />
+              <img src={css} alt="Logo CSS" />
+              <img src={js} alt="Logo JS" />
+              <img src={node} alt="Logo Node-JS" />
+              <img src={mongo} alt="Logo MongoDB" className="mongo" />
+            </div>
+          </div>
+          <div>
+            <p>
+              Les technologies sur lesquelles je me forme actuellement / vais me
+              former
+            </p>
+            <div>
+              <img src={react} alt="Logo React" />
+              <img src={typescript} alt="Logo TS" />
+            </div>
+          </div>
+        </section>
         <section id="project">Projets</section>
         <section id="influence">influenceurs</section>
         <section id="contacts">Contacts</section>

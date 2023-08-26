@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-const Header = ({ title, darkMode, setDarkMode }) => {
+const Header = ({ title, darkMode, setDarkMode, handleMode }) => {
   const navigate = useNavigate();
   return (
     <header className={darkMode ? "dark" : "light"}>
@@ -15,7 +15,9 @@ const Header = ({ title, darkMode, setDarkMode }) => {
         <button
           className={darkMode ? "mode-dark" : "mode-light"}
           onClick={() => {
-            setDarkMode(!darkMode);
+            handleMode(!darkMode);
+            // setDarkMode(!darkMode);
+            // Cookies.set("mode", darkMode, { expires: 15 });
           }}
         >
           <i className="fa-solid fa-sun"></i>

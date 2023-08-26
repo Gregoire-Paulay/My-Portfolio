@@ -58,11 +58,21 @@ const Home = ({ darkMode }) => {
           <div>
             <p>Les technologies sur lesquelles je suis formées</p>
             <div>
-              <img src={html} alt="Logo HTML" />
-              <img src={css} alt="Logo CSS" />
-              <img src={js} alt="Logo JS" />
-              <img src={node} alt="Logo Node-JS" />
-              <img src={mongo} alt="Logo MongoDB" className="mongo" />
+              <a href="https://developer.mozilla.org/fr/docs/Web/HTML">
+                <img src={html} alt="Logo HTML" />
+              </a>
+              <a href="https://developer.mozilla.org/fr/docs/Learn/Getting_started_with_the_web/CSS_basics">
+                <img src={css} alt="Logo CSS" />
+              </a>
+              <a href="https://www.javascript.com/">
+                <img src={js} alt="Logo JS" />
+              </a>
+              <a href="https://nodejs.org/fr">
+                <img src={node} alt="Logo Node-JS" />
+              </a>
+              <a href="https://www.mongodb.com/fr-fr">
+                <img src={mongo} alt="Logo MongoDB" className="mongo" />
+              </a>
             </div>
           </div>
           <div>
@@ -71,8 +81,12 @@ const Home = ({ darkMode }) => {
               former
             </p>
             <div>
-              <img src={react} alt="Logo React" />
-              <img src={typescript} alt="Logo TS" />
+              <a href="https://react.dev/">
+                <img src={react} alt="Logo React" />
+              </a>
+              <a href="https://www.typescriptlang.org/">
+                <img src={typescript} alt="Logo TS" />
+              </a>
             </div>
           </div>
         </section>

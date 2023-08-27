@@ -23,14 +23,21 @@ h1 {
 h2 {
   font-size: 36px;
   font-weight: bold;
-}
-h3 {
-  font-size: 28px;
   margin-bottom: 20px;
 }
+h3 {
+  font-size: 29px;
+  /* font-weight: bold; */
+}
 h4 {
-  font-size: 25px;
+  font-size: 26px;
   margin-bottom: 25px;
+  font-weight: bold;
+}
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0;
 }
 /* ------ Gestion light/dark mode ------ */
 .mode-dark {
@@ -66,6 +73,7 @@ h4 {
   background-color: whitesmoke;
   color: var(--dark);
 }
+
 /* ----------------------------------- */
 /* -------------- HEADER ------------- */
 /* ----------------------------------- */
@@ -77,8 +85,9 @@ header > div {
 h1:hover {
   color: var(--main-color2);
 }
+
 /* ----------------------------------- */
-/* --------------- MAIN -------------- */
+/* ------------ PAGE HOME ------------ */
 /* ----------------------------------- */
 main > div {
   background-color: var(--main-color2);
@@ -117,12 +126,14 @@ main > div > img {
   object-fit: cover;
 }
 
-section {
+main > div > section {
   padding: 40px 0;
 }
 
 /* -------- Section description --------- */
-
+section h3 {
+  margin-bottom: 20px;
+}
 #description > div:first-of-type {
   display: flex;
   align-items: center;
@@ -143,7 +154,7 @@ section {
 .details {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .details p {
   font-size: 18px;
@@ -289,6 +300,101 @@ section {
 }
 
 /* ------ Section Recrutez-moi ------- */
+
+/* ----------------------------------- */
+/* ----------- PAGE PROJETS ---------- */
+/* ----------------------------------- */
+.my-Project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid blue;
+}
+.my-Project a {
+  width: calc(50%);
+}
+.my-Project img {
+  width: calc(100%);
+}
+.my-Project > h3 {
+  margin-top: 40px;
+  text-decoration: underline;
+}
+
+.fa-square {
+  font-size: 8px;
+}
+.github {
+  font-size: 20px;
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid pink;
+}
+.github a {
+  color: var(--dark);
+  font-weight: bold;
+}
+
+/* ------ Section Finished ------- */
+.finished {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.finished > div {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  padding: 8px;
+  gap: 20px;
+  cursor: pointer;
+}
+.finished > div > div {
+  width: calc(50%);
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px #000000;
+}
+.finished p {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+/* ------- Section Building -------- */
+.building {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.building > div {
+  display: flex;
+  align-items: center;
+  border: 1px solid orange;
+  padding: 8px;
+  gap: 20px;
+  cursor: pointer;
+}
+.building > div > div {
+  width: calc(50%);
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 0px #000000;
+}
+.building p {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 5px;
+  align-items: center;
+}
 
 /* ----------------------------------- */
 /* -------------- FOOTER ------------- */

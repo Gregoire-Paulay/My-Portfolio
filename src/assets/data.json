@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Joueur du Grenier",
+    "picture": "https://yt3.googleusercontent.com/ytc/AOPolaQDlHYvTfmJanU15dWs4TQOKrHw2Xh0foumml0o=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.youtube.com/channel/UC_yP2DpIgs5Y1uWC0T03Chw",
+    "domain": "Humour / Gaming"
+  },
+  {
+    "name": "TheHolomovement",
+    "picture": "https://yt3.googleusercontent.com/ytc/AOPolaRTvRJF3a5rk4Z3nHdcsOVx9mVCypos4WwnAAej1w=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.twitch.tv/theholomovement",
+    "domain": "Gaming"
+  },
+  {
+    "name": "OtaXou",
+    "picture": "https://yt3.googleusercontent.com/LnYuMpAZ1qiYRy4oU9kggcTyaS7MkSG6_HusbgZKOTxbPFHkKxZ-u5g2B2si0Ks0PCo8HaQ8iQ=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.youtube.com/@OtaXou/videos",
+    "domain": "Tech"
+  },
+  {
+    "name": "Micode",
+    "picture": "https://yt3.googleusercontent.com/vkXCI-zdBTfUN48F5WpuCo43VVzzGKi1A6bR4R8XWg0lHm4rdgYshTQmp1NpiZ_2lE_0yxpKwqw=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.youtube.com/@Micode/featured",
+    "domain": "Informatique"
+  },
+  {
+    "name": "PP Garcia",
+    "picture": "https://yt3.googleusercontent.com/ytc/AOPolaRHxAK-9VCY-QUVVAe8J_-aYaK_LIEPDeUJ1gDd=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.youtube.com/@PPWorld/about",
+    "domain": "Tech / Actus"
+  },
+  {
+    "name": "Trinity",
+    "picture": "https://yt3.googleusercontent.com/iDh5CqJ-RvuoF7lTlMP6fig9yekVYKatGznyXbXYiUbUoKhU9sZLntilB-0r6UA9dE4sS9NJ=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://trinitrip.fr/",
+    "domain": "Voyage / Gaming"
+  },
+  {
+    "name": "Gastronogeek",
+    "picture": "https://yt3.googleusercontent.com/ytc/AOPolaRW_wkb1-yxAgg0ZAL8LY3i-NJ0CrHw0aeuubqjrg=s176-c-k-c0x00ffffff-no-rj",
+    "link": "https://www.youtube.com/@GASTRONOGEEK",
+    "domain": "Cuisine"
+  }
+]

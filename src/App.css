@@ -28,6 +28,10 @@ h3 {
   font-size: 28px;
   margin-bottom: 20px;
 }
+h4 {
+  font-size: 25px;
+  margin-bottom: 25px;
+}
 /* ------ Gestion light/dark mode ------ */
 .mode-dark {
   position: absolute;
@@ -84,7 +88,7 @@ main > div {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 10px;
   position: sticky;
   top: 0px;
@@ -92,20 +96,18 @@ nav {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   border-bottom: 1px solid var(--dark);
-  gap: 10px;
 }
 nav a {
   font-size: 24px;
   text-decoration: none;
   color: black;
-  border: 1px solid gray;
   padding: 20px;
   border-radius: 8px;
   cursor: pointer;
+  background-color: gray;
 }
 nav a:hover {
-  font-weight: bold;
-  background-color: gray;
+  background-color: var(--dark);
   color: white;
 }
 
@@ -137,18 +139,45 @@ section {
 #description > div:last-of-type {
   padding: 50px 50px 0 50px;
 }
-#description > div:last-of-type > p {
+
+.details {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.details p {
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   margin-bottom: 8px;
 }
-#description a {
+.details a {
   text-decoration: none;
   color: black;
   font-weight: bold;
   cursor: pointer;
 }
 
+.details > div:first-of-type {
+  width: calc(100% - 400px);
+}
+.details > div:last-of-type {
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px 0px #000000;
+}
+.details > div:last-of-type > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.details i {
+  font-size: 30px;
+}
+.details span {
+  margin-left: 30px;
+}
 /* -------- Section formation --------- */
 
 #formation {
@@ -165,14 +194,13 @@ section {
   gap: 30px;
 }
 #formation img {
-  width: 100px;
+  width: 120px;
+  padding: 12px;
 }
 #formation .mongo {
-  width: 200px;
+  width: 210px;
 }
-#formation img:hover {
-  opacity: 0.7;
-}
+
 #formation > div > div {
   display: flex;
   justify-content: center;
@@ -180,6 +208,18 @@ section {
   align-items: center;
 }
 
+#formation a {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid white;
+}
+#formation a:hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px 5px 0px #000000;
+  border: 1px solid lightgray;
+}
 /* -------- Section Projets --------- */
 #project {
   display: flex;
@@ -216,15 +256,40 @@ section {
   background-color: white;
 }
 
-/* -------- Section Contacts -------- */
-#contacts {
+#influence > div {
+  display: flex;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 50px 80px;
+  justify-content: center;
+}
+#influence a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: var(--dark);
+  box-shadow: 5px 5px 5px 0px #000000;
+  border: 1px solid lightgray;
+  padding: 15px;
+  border-radius: 10px;
 }
-#contacts > div:first-of-type {
-  padding-top: 30px;
+#influence a:hover {
+  background-color: lightgray;
 }
+#influence a > p:first-of-type {
+  font-size: 18px;
+  font-weight: bold;
+}
+#influence img {
+  border-radius: 50%;
+  width: 120px;
+}
+
+/* ------ Section Recrutez-moi ------- */
+
 /* ----------------------------------- */
 /* -------------- FOOTER ------------- */
 /* ----------------------------------- */

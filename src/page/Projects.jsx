@@ -1,6 +1,7 @@
 import tripadvisor from "../assets/tripadvisor.png";
 import vinted from "../assets/vinted.png";
 import deliveroo from "../assets/deliveroo.png";
+import airbnb from "../assets/airbnb.png";
 
 const Projects = ({ darkMode }) => {
   return (
@@ -64,7 +65,7 @@ const Projects = ({ darkMode }) => {
           <h3>Projets en cours</h3>
           <section className="building">
             <div>
-              <a href="https://deliveroo-gp.netlify.app">
+              <a href="https://vinted-front-gp.netlify.app">
                 <img src={vinted} alt="vinted" />
               </a>
               <div>
@@ -90,20 +91,58 @@ const Projects = ({ darkMode }) => {
                 </p>
                 <p className="github">
                   <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Deliveroo-frontend">
+                  <a href="https://github.com/Gregoire-Paulay/Vinted-Front">
                     Répertoire Github Front-End
                   </a>
                 </p>
                 <p className="github">
                   <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Deliveroo-frontend">
+                  <a href="https://github.com/Gregoire-Paulay/Vinted-BackEnd">
                     Répertoire Github Back-End
                   </a>
                 </p>
               </div>
             </div>
           </section>
-          <section className="coming-soon"></section>
+
+          <h3>Projets à venir</h3>
+          <section className="coming-soon">
+            <div>
+              <a href="#">
+                <img src={airbnb} alt="airbnb" />
+              </a>
+              <div>
+                <h4>Airbnb Mobile</h4>
+                <h5>Projet Full-Stack</h5>
+                <p>
+                  <i className="fa-solid fa-square"></i>Inscription / Connexion
+                </p>
+                <p>
+                  <i className="fa-solid fa-square"></i>Modification du profil
+                  utilisateur
+                </p>
+                <p>
+                  <i className="fa-solid fa-square"></i>Affichage de cartes
+                </p>
+                <p>
+                  <i className="fa-solid fa-square"></i>Géolocalisation
+                </p>
+                <p>
+                  <i className="fa-solid fa-square"></i>Accès à la galerie
+                  d'images
+                </p>
+                <p>
+                  <i className="fa-solid fa-square"></i>Accès à l'appareil photo
+                </p>
+                <p className="github">
+                  <i className="fa-brands fa-github"></i>
+                  <a href="https://github.com/Gregoire-Paulay/">
+                    Répertoire Github
+                  </a>
+                </p>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>

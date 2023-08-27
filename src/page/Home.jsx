@@ -158,16 +158,35 @@ const Home = ({ darkMode }) => {
           </div>
         </section>
 
-        <section>
+        <section className="recruit">
           <h2>Recrutez-moi</h2>
+          <p>
+            Si ce que vous avez vu à retenu votre attention n'hésitez pas à me
+            contacter via un de mes réseaux
+          </p>
           <div>
             <i className="fa-solid fa-envelope"></i>
+            <span>gregoirepaulay.pro@gmail.com</span>
+          </div>
+          <div>
+            <i className="fa-solid fa-phone"></i>
+            <span>06 23 29 73 02</span>
           </div>
           <div>
             <i className="fa-brands fa-linkedin"></i>
+            <span>
+              <a href="https://www.linkedin.com/in/grégoire-paulay-142384285/">
+                https://www.linkedin.com/
+              </a>
+            </span>
           </div>
           <div>
             <i className="fa-brands fa-github"></i>
+            <span>
+              <a href="https://github.com/Gregoire-Paulay">
+                https://github.com/
+              </a>
+            </span>
           </div>
         </section>
       </div>

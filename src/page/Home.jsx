@@ -162,7 +162,8 @@ const Home = ({ darkMode }) => {
           <h2>Recrutez-moi</h2>
           <p>
             Si ce que vous avez vu à retenu votre attention n'hésitez pas à me
-            contacter via un de mes réseaux
+            contacter via un de mes réseaux, je serais disponible dès le 05
+            Octobre 2023.
           </p>
           <div>
             <i className="fa-solid fa-envelope"></i>

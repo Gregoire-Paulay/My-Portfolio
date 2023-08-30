@@ -336,6 +336,9 @@ section h3 {
 .my-Project img {
   width: 100%;
 }
+.my-Project img:hover {
+  opacity: 0.8;
+}
 .my-Project > h3 {
   margin-top: 40px;
   text-decoration: underline;
@@ -346,13 +349,23 @@ section h3 {
 }
 .github {
   font-size: 20px;
-  margin-top: 25px;
+  margin-top: 20px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  gap: 8px;
+}
+.github a:hover {
+  text-decoration: underline;
+}
+.github > div {
+  display: flex;
+  gap: 15px;
 }
 .github a {
   color: var(--dark);
   font-weight: bold;
+  text-decoration: none;
 }
 
 /* ------ Section Finished ------- */
@@ -435,6 +448,7 @@ section h3 {
   padding: 8px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 0px #000000;
+  color: red;
 }
 .coming-soon p {
   display: flex;

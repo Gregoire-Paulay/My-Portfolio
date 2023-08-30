@@ -30,12 +30,14 @@ const Projects = ({ darkMode }) => {
                 <p>
                   <i className="fa-solid fa-square"></i>Carousel de photos
                 </p>
-                <p className="github">
-                  <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Tripadvisor-Integration">
-                    Répertoire Github
-                  </a>
-                </p>
+                <div className="github">
+                  <div>
+                    <i className="fa-brands fa-github"></i>
+                    <a href="https://github.com/Gregoire-Paulay/Tripadvisor-Integration">
+                      Répertoire Github
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
 
@@ -52,12 +54,14 @@ const Projects = ({ darkMode }) => {
                 <p>
                   <i className="fa-solid fa-square"></i>Panier de commande
                 </p>
-                <p className="github">
-                  <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Deliveroo-frontend">
-                    Répertoire Github
-                  </a>
-                </p>
+                <div className="github">
+                  <div>
+                    <i className="fa-brands fa-github"></i>
+                    <a href="https://github.com/Gregoire-Paulay/Deliveroo-frontend">
+                      Répertoire Github
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -89,18 +93,21 @@ const Projects = ({ darkMode }) => {
                 <p>
                   <i className="fa-solid fa-square"></i>Upload de Photo
                 </p>
-                <p className="github">
-                  <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Vinted-Front">
-                    Répertoire Github Front-End
-                  </a>
-                </p>
-                <p className="github">
-                  <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/Vinted-BackEnd">
-                    Répertoire Github Back-End
-                  </a>
-                </p>
+
+                <div className="github">
+                  <div>
+                    <i className="fa-brands fa-github"></i>
+                    <a href="https://github.com/Gregoire-Paulay/Vinted-Front">
+                      Répertoire Github Front-End
+                    </a>
+                  </div>
+                  <div>
+                    <i className="fa-brands fa-github"></i>
+                    <a href="https://github.com/Gregoire-Paulay/Vinted-BackEnd">
+                      Répertoire Github Back-End
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </section>
@@ -134,12 +141,14 @@ const Projects = ({ darkMode }) => {
                 <p>
                   <i className="fa-solid fa-square"></i>Accès à l'appareil photo
                 </p>
-                <p className="github">
-                  <i className="fa-brands fa-github"></i>
-                  <a href="https://github.com/Gregoire-Paulay/">
-                    Répertoire Github
-                  </a>
-                </p>
+                <div className="github">
+                  <div>
+                    {/* <i className="fa-brands fa-github"></i>
+                    <a href="https://github.com/Gregoire-Paulay/">
+                      Répertoire Github
+                    </a> */}
+                  </div>
+                </div>
               </div>
             </div>
           </section>

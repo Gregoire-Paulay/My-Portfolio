@@ -24,10 +24,10 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 h3 {
   font-size: 29px;
-  /* font-weight: bold; */
 }
 h4 {
   font-size: 26px;
@@ -35,9 +35,10 @@ h4 {
   font-weight: bold;
 }
 h5 {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
-  padding: 10px 0;
+
+  margin-bottom: 35px;
 }
 /* ------ Gestion light/dark mode ------ */
 .mode-dark {
@@ -220,6 +221,7 @@ section h3 {
   justify-content: center;
   gap: 50px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 #formation a {
@@ -245,7 +247,7 @@ section h3 {
   width: 100%;
   flex-shrink: 0;
   overflow: scroll hidden;
-  gap: 25px;
+  /* gap: 25px; */
 }
 #project p {
   padding-top: 25px;
@@ -257,6 +259,7 @@ section h3 {
 #project img {
   height: 300px;
   cursor: pointer;
+  border: 2px solid black;
 }
 #project img:hover {
   opacity: 0.8;
@@ -292,6 +295,7 @@ section h3 {
 }
 #influence a:hover {
   background-color: lightgray;
+  transform: scale(1.05);
 }
 #influence a > p:first-of-type {
   font-size: 18px;
@@ -301,6 +305,7 @@ section h3 {
   border-radius: 50%;
   width: 120px;
 }
+
 #influence h2 {
   text-align: center;
 }
@@ -329,132 +334,74 @@ section h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  /* border: 3px solid red; */
 }
-.my-Project a {
-  width: 50%;
-}
+
 .my-Project img {
+  width: 450px;
+  height: 270px;
+  box-shadow: 5px 5px 5px 0px #000000;
+}
+.finished {
+  /* border: 2px solid green; */
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  margin: 30px 0;
 }
-.my-Project img:hover {
-  opacity: 0.8;
+.finished > div {
+  display: flex;
+  /* border: 3px solid blue; */
+  width: 95%;
+  gap: 25px;
+  justify-content: center;
 }
-.my-Project > h3 {
-  margin-top: 40px;
+
+.description {
+  /* border: 2px solid pink; */
+  display: flex;
+  width: 40%;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  justify-content: center;
+}
+.description > div {
+  /* border: 5px solid yellow; */
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.description li {
+  margin-top: 5px;
+}
+
+.type {
+  margin-bottom: 12px;
   text-decoration: underline;
 }
 
-.fa-square {
-  font-size: 8px;
-}
 .github {
-  font-size: 20px;
-  margin-top: 20px;
+  /* border: 1px solid black; */
+  margin-top: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  gap: 25px;
+}
+.github a {
+  /* border: 2px solid red; */
+  display: flex;
   gap: 8px;
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
 }
 .github a:hover {
   text-decoration: underline;
-}
-.github > div {
-  display: flex;
-  gap: 15px;
-}
-.github a {
-  color: var(--dark);
-  font-weight: bold;
-  text-decoration: none;
-}
-
-/* ------ Section Finished ------- */
-.finished {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 30px;
-  width: 90%;
-}
-
-.finished > div {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  gap: 20px;
-}
-.finished > div > div {
-  width: calc(50%);
-  background-color: white;
-  padding: 8px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 0px #000000;
-}
-.finished p {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 5px;
-  align-items: center;
-}
-
-/* ------- Section Building -------- */
-.building {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 30px;
-  width: 90%;
-}
-
-.building > div {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  gap: 20px;
-}
-.building > div > div {
-  width: calc(50%);
-  background-color: white;
-  padding: 8px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 0px #000000;
-}
-.building p {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 5px;
-  align-items: center;
-}
-
-/* ------- Section comming-soon ------ */
-.coming-soon {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-  margin-top: 30px;
-  width: 90%;
-  margin-bottom: 40px;
-}
-
-.coming-soon > div {
-  display: flex;
-  align-items: center;
-  padding: 8px;
-  gap: 20px;
-}
-.coming-soon > div > div {
-  width: calc(50%);
-  background-color: white;
-  padding: 8px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 0px #000000;
-  color: red;
-}
-.coming-soon p {
-  display: flex;
-  gap: 12px;
-  margin-bottom: 5px;
-  align-items: center;
 }
 
 /* ----------------------------------- */
@@ -481,31 +428,6 @@ footer a {
   }
   #description h3 {
     text-align: center;
-  }
-
-  .my-Project a {
-    width: 100%;
-  }
-
-  .finished > div {
-    flex-direction: column;
-  }
-  .finished > div > div {
-    width: calc(80%);
-  }
-
-  .building > div {
-    flex-direction: column;
-  }
-  .building > div > div {
-    width: calc(80%);
-  }
-
-  .coming-soon > div {
-    flex-direction: column;
-  }
-  .coming-soon > div > div {
-    width: calc(80%);
   }
 }
 

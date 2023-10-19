@@ -10,12 +10,11 @@ import node from "../assets/node-js.png";
 import mongo from "../assets/mongodb.png";
 import react from "../assets/react.png";
 import typescript from "../assets/typescript.png";
-import tripadvisor from "../assets/tripadvisor.png";
-import vinted from "../assets/vinted.png";
-import deliveroo from "../assets/deliveroo.png";
+
+import vinted from "../assets/screens/vinted.png";
 
 // import de mon data.json
-import data from "../assets/data.json";
+import data from "../assets/data/data.json";
 
 const Home = ({ darkMode }) => {
   const navigate = useNavigate();
@@ -114,14 +113,6 @@ const Home = ({ darkMode }) => {
               <a href="https://www.mongodb.com/fr-fr">
                 <img src={mongo} alt="Logo MongoDB" className="mongo" />
               </a>
-            </div>
-          </div>
-          <div>
-            <p>
-              Les technologies sur lesquelles je me forme actuellement / vais me
-              former
-            </p>
-            <div>
               <a href="https://react.dev/">
                 <img src={react} alt="Logo React" />
               </a>
@@ -135,10 +126,19 @@ const Home = ({ darkMode }) => {
         <section id="project">
           <h2>Projets</h2>
           <p onClick={handleNavigate}>Cliquer pour plus d'infos</p>
-          <div>
-            <img src={tripadvisor} alt="projet" onClick={handleNavigate} />
-            <img src={deliveroo} alt=" projet" onClick={handleNavigate} />
-            <img src={vinted} alt=" projet" onClick={handleNavigate} />
+          <div onClick={handleNavigate}>
+            <img
+              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697725465/Vinted-gp.png"
+              alt=" projet"
+            />
+            <img
+              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697725698/airbnb_utohhu.png"
+              alt=" projet"
+            />
+            <img
+              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697725519/Marvel-gp.png"
+              alt=" projet"
+            />
           </div>
         </section>
 

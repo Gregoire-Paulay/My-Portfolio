@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Vinted Web",
+    "type": "Projet Full-Stack",
+    "description": [
+      "Inscription / Connexion",
+      "Récupération de données",
+      "Publication d'annonces",
+      "Barre de recherche",
+      "Paiement",
+      "Upload de Photo"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Vinted-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Vinted-BackEnd",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725465/Vinted-gp.png",
+    "link": "https://vinted-front-gp.netlify.app"
+  },
+  {
+    "name": "Airbnb Mobile",
+    "type": "Projet Full-Stack",
+    "description": [
+      "Inscription / Connexion",
+      "Modification Profil Utilisateur",
+      "Affichage de cartes",
+      "Géolocalisation",
+      "Accès à la galerie d'image",
+      "Accès à l'appareil photo"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Airbnb-Mobile",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725698/airbnb_utohhu.png"
+  },
+  {
+    "name": "Marvel Web",
+    "type": "Projet Full-Stack",
+    "description": [
+      "Inscription / Connexion",
+      "Barre de recherche",
+      "Pagination",
+      "Gestion des Favoris"
+    ],
+    "github-front": "https://github.com/Gregoire-Paulay/Marvel-Front",
+    "github-back": "https://github.com/Gregoire-Paulay/Marvel-Back",
+    "picture": "https://res.cloudinary.com/dy2ayuond/image/upload/v1697725519/Marvel-gp.png",
+    "link": "https://marvel-gp.netlify.app"
+  }
+]

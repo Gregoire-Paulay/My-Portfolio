@@ -11,8 +11,6 @@ import mongo from "../assets/mongodb.png";
 import react from "../assets/react.png";
 import typescript from "../assets/typescript.png";
 
-import vinted from "../assets/screens/vinted.png";
-
 // import de mon data.json
 import data from "../assets/data/data.json";
 

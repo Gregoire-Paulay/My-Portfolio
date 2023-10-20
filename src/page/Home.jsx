@@ -134,7 +134,7 @@ const Home = ({ darkMode }) => {
               alt=" projet"
             />
             <img
-              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697725519/Marvel-gp.png"
+              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697817771/Marvel/Home.png"
               alt=" projet"
             />
           </div>

@@ -143,6 +143,7 @@ section h3 {
   align-items: center;
   justify-content: center;
   gap: 50px;
+  /* border: 3px solid red; */
 }
 #description img {
   height: 250px;
@@ -174,6 +175,7 @@ section h3 {
 
 .details > div:first-of-type {
   width: calc(100% - 400px);
+  /* border: 3px solid coral; */
 }
 .details > div:last-of-type {
   background-color: white;
@@ -207,6 +209,7 @@ section h3 {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  /* border: 3px solid blue; */
 }
 #formation img {
   width: 120px;
@@ -446,5 +449,33 @@ footer a {
   }
   .details > div:first-of-type {
     width: 100%;
+  }
+  @media (max-width: 950px) {
+    nav a {
+      font-size: 20px;
+      padding: 10px;
+    }
+    .details > div:first-of-type {
+      width: 95%;
+    }
+    #description > div:last-of-type {
+      padding: 0px;
+    }
+    #description > div:first-of-type {
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    #formation {
+      gap: 10px;
+    }
+    #formation > div {
+      gap: 5px;
+      padding: 5px;
+    }
+    #influence > div {
+      gap: 15px;
+      padding: 10px;
+    }
   }
 }

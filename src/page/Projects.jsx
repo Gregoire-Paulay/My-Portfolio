@@ -31,10 +31,13 @@ const Projects = ({ darkMode }) => {
                       </div>
 
                       <div className="github">
-                        <a href={project["github-front"]}>
-                          <i className="fa-brands fa-github"></i>
-                          <span>Github Front </span>
-                        </a>
+                        {project["github-front"] && (
+                          <a href={project["github-front"]}>
+                            <i className="fa-brands fa-github"></i>
+                            <span>Github Front </span>
+                          </a>
+                        )}
+
                         {project["github-back"] && (
                           <a href={project["github-back"]}>
                             <i className="fa-brands fa-github"></i>

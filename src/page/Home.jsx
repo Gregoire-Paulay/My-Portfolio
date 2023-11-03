@@ -47,11 +47,10 @@ const Home = ({ darkMode }) => {
                   développement web et mobile.
                 </p>
                 <p>
-                  Je suis actuellement en formation chez
-                  <a href="https://www.lereacteur.io"> Le Reacteur</a> pour une
-                  formation intensive d'un peu plus de 10 semaine qui à
-                  commencer le 17 Juillet 2023 et se terminera le 04 Octobre
-                  2023.
+                  Je viens de terminez ma formation chez
+                  <a href="https://www.lereacteur.io"> Le Reacteur</a> et suis
+                  actuellement à la recherche d'un stage de 6mois pour obtenir
+                  mon titre RNCP lié à cette formation.
                 </p>
                 <p>
                   Ce bootcamp intensif m'a permis d'acquérir des compétences

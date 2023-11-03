@@ -14,8 +14,9 @@ const Projects = ({ darkMode }) => {
             {projects.map((project) => {
               return (
                 <div key={project.name}>
-                  <a href={project.link}>
-                    {" "}
+                  <a
+                    href={project.link ? project.link : project["github-front"]}
+                  >
                     <img src={project.picture} alt="Projet" />{" "}
                   </a>
 

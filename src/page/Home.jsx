@@ -123,7 +123,7 @@ const Home = ({ darkMode }) => {
 
         <section id="project">
           <h2>Projets</h2>
-          <p onClick={handleNavigate}>Cliquer pour plus d'infos</p>
+          {/* <p onClick={handleNavigate}>Cliquer pour plus d'infos</p> */}
           <div onClick={handleNavigate}>
             <img
               src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697725465/Vinted-gp.png"
@@ -135,6 +135,10 @@ const Home = ({ darkMode }) => {
             />
             <img
               src="https://res.cloudinary.com/dy2ayuond/image/upload/v1697817771/Marvel/Home.png"
+              alt=" projet"
+            />
+            <img
+              src="https://res.cloudinary.com/dy2ayuond/image/upload/v1699016062/PokéInfo-Home.png"
               alt=" projet"
             />
           </div>
